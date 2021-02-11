@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+}
+.head1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background: #1a1a1a;
+  color: white;
+  padding-top: 0.2rem;
+  border-bottom: 2px solid #333;
+  overflow: visible;
+}
+.head1_item {
+  margin-left: 1rem;
+  font-size: small;
+  padding-left: 0.3rem;
+  padding-right: 0.3rem;
+}
+.icon {
+  font-size: large;
+  padding-left: 0.4rem;
+  padding-right: 0.4rem;
+}
+.head2 {
+  text-align: center;
+  background-color: black;
+  color: azure;
+  margin-top: 0;
+  overflow: visible;
+}
+.container_first {
+  padding-bottom: 0.2rem;
+  border-bottom: 2px solid black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.head3 {
+  position: sticky;
+  top: 0;
+  display: flex;
+  flex-direction: row;
+  padding-left: 9rem;
+  background: #be2819;
+  color: white;
+  overflow: visible;
+}
+.small {
+  font-size: 16px;
+  font-weight: bold;
+}
+.head3_item {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 0;
+}
+.head3_item:hover {
+  background-color: white;
+  color: black;
+}
+.container {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.cart {
+  border-bottom: 1px solid #e5e5e5;
+  vertical-align: baseline;
+}
+.most_popular_item {
+  color: #fff;
+  padding: 0 10px;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.most_popular_item:hover {
+  background-color: black;
+}
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer_div div {
+  margin-bottom: 0.5rem;
+}
+.footer_div div :hover {
+  color: grey;
+}
+.entertainment_news .cart {
+  margin-bottom: 0.5rem;
+}
+.business_news .cart {
+  margin-bottom: 0.5rem;
+}
+.spots_news .cart {
+  margin-bottom: 0.5rem;
+}
+.tv_news .cart {
+  margin-bottom: 0.5rem;
+}
